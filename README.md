@@ -1,21 +1,25 @@
 # Segmentation of cells embedded in 3D agarose aggregates
 
-Publication reference:\
+**Publication reference:**\
 Microfluidic platform for live cell imaging of 3D cultures with clone retrieval\
 Carla Mulas, Andrew C Hodgson, Timo N Kohler, Chibeza C Agley,  Florian Hollfelder,  Austin Smith,  Kevin Chalut\
 doi: https://doi.org/10.1101/2020.02.17.952689
 
-Outline: 
+**Outline:**
 * input: z-stacks of cell aggregates embedded in agarose/fibrin/laminin hydrogel beads. Cells express a constitutive membrane marker (mTomato or mT) and Rex1::GFPd2. 
 * action: 3D segmentation of aggregate and determine mean expression of GFP and mTomato
 * output: Table with time, position, GFP mean expression, mTomato mean expression
 
-Input files:
+**Input files:**
 * .lsm files are automatically exported from the imaging software (Zeiss Blue) after each imaging round. The files contain z-stacks for brightfield, GFP and mT channel. 
 
 ![Filename](https://user-images.githubusercontent.com/61800079/82453995-2a6a9500-9aa9-11ea-9b46-a67f70e97c89.png)
 
-Steps:
+**Test image file (t=1):**
+
+[GoogleDrive](https://drive.google.com/open?id=1HhmFl2TU5L6jsOuv-aixCs5u4wLIPOKN)
+
+**Steps:**
 1. Import file for a given position and timepoint and separate GFP and mT channel. 
 2. Pre-process mT channel [REF1]
 3. Determine threshold on mT channel
