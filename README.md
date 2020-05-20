@@ -1,8 +1,8 @@
 # Segmentation of cells embedded in 3D agarose aggregates
 
-Publication reference: 
-Microfluidic platform for live cell imaging of 3D cultures with clone retrieval
-Carla Mulas, Andrew C Hodgson, Timo N Kohler, Chibeza C Agley,  Florian Hollfelder,  Austin Smith,  Kevin Chalut
+Publication reference:\
+Microfluidic platform for live cell imaging of 3D cultures with clone retrieval\
+Carla Mulas, Andrew C Hodgson, Timo N Kohler, Chibeza C Agley,  Florian Hollfelder,  Austin Smith,  Kevin Chalut\
 doi: https://doi.org/10.1101/2020.02.17.952689
 
 Outline: 
